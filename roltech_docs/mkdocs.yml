@@ -1,0 +1,37 @@
+site_name: Stage RolTech — GMAO Simplifiée
+site_description: Documentation du stage - supervision et maintenance des machines industrielles
+repo_url: https://github.com/Malek720/ROLTECH_PROJECT
+theme:
+  name: material
+  language: fr
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Accueil: index.md
+  - Cahier des charges:
+      - Vue d'ensemble: 01-cahier-des-charges/index.md
+      - Exigences fonctionnelles: 01-cahier-des-charges/objectifs.md
+  - Modélisation UML:
+      - Vue d'ensemble: 02-uml/index.md
+      - Cas d'utilisation: 02-uml/use-case.md
+      - Diagramme de classes: 02-uml/class-diagram.md
+      - Diagramme de séquence: 02-uml/sequence-diagram.md
+  - Réunions: meetings/2026-08-kickoff.md
+  - Journal de stage: journal/semaine-01.md
