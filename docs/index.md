@@ -27,6 +27,19 @@ une perte de traçabilité et des retards dans la prise de décision.
 - **Base de données** : MySQL
 - **Versioning** : Git
 
+## Dépôt de développement
+
+Le code source de l'application (Symfony + MySQL) est disponible ici :
+
+[GitHub — Malek720/ROLTECH_GMAO](https://github.com/Malek720/ROLTECH_GMAO)
+
+## Démonstration du prototype
+
+<video controls width="100%">
+  <source src="assets/videos/demo.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+</video>
+
 ## Planning
 
 | Sprint | Contenu |
